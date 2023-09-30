@@ -1,0 +1,105 @@
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
+| Date         : Tue Jan 18 20:31:51 2022
+| Host         : iMalt-PC running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file drinkinator_control_sets_placed.rpt
+| Design       : drinkinator
+| Device       : xc7a35t
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    27 |
+|    Minimum number of control sets                        |    27 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |   110 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    27 |
+| >= 0 to < 4        |     4 |
+| >= 4 to < 6        |     9 |
+| >= 6 to < 8        |     2 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     5 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              79 |           29 |
+| No           | No                    | Yes                    |             103 |           34 |
+| No           | Yes                   | No                     |              23 |           13 |
+| Yes          | No                    | No                     |              10 |            7 |
+| Yes          | No                    | Yes                    |             329 |          134 |
+| Yes          | Yes                   | No                     |              10 |            6 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------------------------+------------------------------------------+----------------------------------------------+------------------+----------------+--------------+
+|            Clock Signal            |               Enable Signal              |               Set/Reset Signal               | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------------------------+------------------------------------------+----------------------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG                     | kD/inst/Ps2Interface_i/ps2_clk_s1        | rst_IBUF                                     |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG                     | kD/inst/Ps2Interface_i/ps2_data_s1       | rst_IBUF                                     |                1 |              1 |         1.00 |
+|  nolabel_line67/clkdiv_25/out[0]   |                                          | rst_IBUF                                     |                1 |              1 |         1.00 |
+|  nolabel_line67/clkdiv_2/Q_BUFG[0] |                                          | rst_IBUF                                     |                2 |              2 |         1.00 |
+|  clk_IBUF_BUFG                     |                                          | p_max[4]_i_1_n_0                             |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                     | kD/c_ly_reg[0][0]                        | rst_IBUF                                     |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                     | kD/c_wa_reg[3][0]                        | rst_IBUF                                     |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                     | kD/c_wh_reg[3]_0[0]                      | rst_IBUF                                     |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG                     | kD/c_le_reg[0][0]                        | rst_IBUF                                     |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                     | kD/c_li_reg[0][0]                        | rst_IBUF                                     |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                     | kD/E[0]                                  |                                              |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                     | kD/c_wh_reg[3][0]                        | rst_IBUF                                     |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                     | kD/inst/Ps2Interface_i/bits_count        | rst_IBUF                                     |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG                     | bartender/m_wh_i_1_n_0                   |                                              |                5 |              6 |         1.20 |
+|  clk_IBUF_BUFG                     | kD/FSM_sequential_state_reg[0]_1[0]      | rst_IBUF                                     |                3 |              6 |         2.00 |
+|  clk_IBUF_BUFG                     | kD/inst/Ps2Interface_i/rx_finish         | rst_IBUF                                     |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                     | kD/inst/Ps2Interface_i/rx_valid          | rst_IBUF                                     |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG                     | kD/inst/E[0]                             | rst_IBUF                                     |                3 |             10 |         3.33 |
+|  clk_IBUF_BUFG                     | kD/op/E[0]                               | rst_IBUF                                     |                6 |             10 |         1.67 |
+|  nolabel_line67/clkdiv_2/Q_BUFG[0] |                                          | nolabel_line67/vga_inst/pixel_cnt[9]_i_1_n_0 |                5 |             10 |         2.00 |
+|  nolabel_line67/clkdiv_2/Q_BUFG[0] | nolabel_line67/vga_inst/line_cnt         | nolabel_line67/vga_inst/line_cnt[9]_i_1_n_0  |                6 |             10 |         1.67 |
+|  clk_IBUF_BUFG                     | kD/inst/Ps2Interface_i/frame[10]_i_1_n_0 | rst_IBUF                                     |                2 |             11 |         5.50 |
+|  disp/fps/CLK                      |                                          |                                              |                6 |             13 |         2.17 |
+|  nolabel_line67/clkdiv_2/Q_BUFG[0] |                                          |                                              |                9 |             19 |         2.11 |
+|  clk_IBUF_BUFG                     |                                          |                                              |               14 |             47 |         3.36 |
+|  clk_IBUF_BUFG                     |                                          | rst_IBUF                                     |               37 |            109 |         2.95 |
+|  clk_IBUF_BUFG                     | bartender/water[40]_i_1_n_0              | rst_IBUF                                     |              100 |            246 |         2.46 |
++------------------------------------+------------------------------------------+----------------------------------------------+------------------+----------------+--------------+
+
+

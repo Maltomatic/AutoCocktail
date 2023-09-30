@@ -1,0 +1,449 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Tue Jan 18 20:30:19 2022
+# Process ID: 16340
+# Current directory: C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/drink_master.runs/synth_1
+# Command line: vivado.exe -log drinkinator.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source drinkinator.tcl
+# Log file: C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/drink_master.runs/synth_1/drinkinator.vds
+# Journal file: C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/drink_master.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source drinkinator.tcl -notrace
+Command: synth_design -top drinkinator -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12320
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:18]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:19]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:20]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:21]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:22]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:23]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:24]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:26]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:27]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:28]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:29]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:31]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:32]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:33]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:34]
+WARNING: [Synth 8-2507] parameter declaration becomes local in KeyboardCtrl with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:35]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:191]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:192]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:193]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:194]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:229]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:231]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:232]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:233]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:234]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:235]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:236]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:237]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:238]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:239]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:240]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:241]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:242]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:243]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:244]
+WARNING: [Synth 8-2507] parameter declaration becomes local in Ps2Interface with formal parameter declaration list [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:245]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1153.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'drinkinator' [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/main.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mixer' [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/mixer.v:1]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/mixer.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'mixer' (1#1) [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/mixer.v:1]
+INFO: [Synth 8-6157] synthesizing module 'KeyboardDecoder' [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardDecoder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'KeyboardCtrl' [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Ps2Interface' [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:164]
+	Parameter SYSCLK_FREQUENCY_HZ bound to: 100000000 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'IOBUF' [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:56188]
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (2#1) [C:/Xilinx/Vivado/2021.1/scripts/rt/data/unisim_comp.v:56188]
+INFO: [Synth 8-6155] done synthesizing module 'Ps2Interface' (3#1) [C:/Users/justi/Documents/verilog_lab/lab-7/Ps2Interface.v:164]
+INFO: [Synth 8-6155] done synthesizing module 'KeyboardCtrl' (4#1) [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardCtrl.v:1]
+INFO: [Synth 8-6157] synthesizing module 'OnePulse' [C:/Users/justi/Documents/verilog_lab/lab-6/OnePulse.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'OnePulse' (5#1) [C:/Users/justi/Documents/verilog_lab/lab-6/OnePulse.v:1]
+INFO: [Synth 8-226] default block is never used [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardDecoder.v:64]
+INFO: [Synth 8-6155] done synthesizing module 'KeyboardDecoder' (6#1) [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/KeyboardDecoder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'main_screen' [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/main_screen.v:7]
+INFO: [Synth 8-6157] synthesizing module 'clkdiv' [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/main_screen.v:1]
+	Parameter n bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clkdiv' (7#1) [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/main_screen.v:1]
+INFO: [Synth 8-6157] synthesizing module 'clkdiv__parameterized0' [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/main_screen.v:1]
+	Parameter n bound to: 25 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clkdiv__parameterized0' (7#1) [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/main_screen.v:1]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_0' [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/drink_master.runs/synth_1/.Xil/Vivado-16340-iMalt-PC/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_0' (8#1) [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/drink_master.runs/synth_1/.Xil/Vivado-16340-iMalt-PC/realtime/blk_mem_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'blk_mem_gen_1' [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/drink_master.runs/synth_1/.Xil/Vivado-16340-iMalt-PC/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'blk_mem_gen_1' (9#1) [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/drink_master.runs/synth_1/.Xil/Vivado-16340-iMalt-PC/realtime/blk_mem_gen_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'vga_controller' [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/vga.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'vga_controller' (10#1) [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/vga.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'main_screen' (11#1) [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/main_screen.v:7]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/main.v:95]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/main.v:82]
+INFO: [Synth 8-6157] synthesizing module 'segs' [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/flasher.v:1]
+INFO: [Synth 8-6157] synthesizing module 'clkdiv__parameterized1' [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/main_screen.v:1]
+	Parameter n bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clkdiv__parameterized1' (11#1) [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/main_screen.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'segs' (12#1) [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/flasher.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'drinkinator' (13#1) [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/main.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1153.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1153.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1153.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 1153.160 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/drink_master.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'nolabel_line67/blk_mem_gen_0_inst'
+Finished Parsing XDC File [c:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/drink_master.gen/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0/blk_mem_gen_0_in_context.xdc] for cell 'nolabel_line67/blk_mem_gen_0_inst'
+Parsing XDC File [c:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/drink_master.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'nolabel_line67/blk_mem_gen_1_inst'
+Finished Parsing XDC File [c:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/drink_master.gen/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1/blk_mem_gen_1_in_context.xdc] for cell 'nolabel_line67/blk_mem_gen_1_inst'
+Parsing XDC File [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/constraints_drink.xdc]
+Finished Parsing XDC File [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/constraints_drink.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/constraints_drink.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/drinkinator_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/drinkinator_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1153.160 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1153.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1153.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1153.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for nolabel_line67/blk_mem_gen_0_inst. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for nolabel_line67/blk_mem_gen_1_inst. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1153.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'Ps2Interface'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'KeyboardCtrl'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'KeyboardDecoder'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'drinkinator'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                  000000000000010 |                             0000
+        TX_FORCE_CLK_LOW |                  000000000001000 |                             0100
+       TX_BRING_DATA_LOW |                  000000000010000 |                             0101
+          TX_RELEASE_CLK |                  100000000000000 |                             0110
+  TX_WAIT_FIRTS_NEG_EDGE |                  001000000000000 |                             0111
+              TX_CLK_LOW |                  000100000000000 |                             1000
+        TX_WAIT_POS_EDGE |                  010000000000000 |                             1001
+TX_WAIT_POS_EDGE_BEFORE_ACK |                  000001000000000 |                             1011
+             TX_WAIT_ACK |                  000000010000000 |                             1100
+         TX_RECEIVED_ACK |                  000000000100000 |                             1101
+         TX_ERROR_NO_ACK |                  000000100000000 |                             1110
+             TX_CLK_HIGH |                  000010000000000 |                             1010
+             RX_NEG_EDGE |                  000000000000100 |                             0001
+              RX_CLK_LOW |                  000000001000000 |                             0010
+             RX_CLK_HIGH |                  000000000000001 |                             0011
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'Ps2Interface'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   RESET |                              000 |                              000
+                SEND_CMD |                              001 |                              001
+                WAIT_ACK |                              010 |                              010
+          RESET_WAIT_BAT |                              011 |                              110
+              WAIT_KEYIN |                              100 |                              011
+              GET_EXTEND |                              101 |                              101
+               GET_BREAK |                              110 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'KeyboardCtrl'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    INIT |                               00 |                               00
+         WAIT_FOR_SIGNAL |                               01 |                               01
+         GET_SIGNAL_DOWN |                               10 |                               10
+            WAIT_RELEASE |                               11 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'KeyboardDecoder'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                   order |                               00 |                               00
+               customize |                               01 |                               01
+                   start |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'drinkinator'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1153.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   41 Bit       Adders := 6     
+	   2 Input   31 Bit       Adders := 1     
+	   2 Input   14 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input   10 Bit       Adders := 4     
+	   2 Input    4 Bit       Adders := 3     
+	   2 Input    2 Bit       Adders := 2     
++---Registers : 
+	              512 Bit    Registers := 1     
+	               41 Bit    Registers := 6     
+	               31 Bit    Registers := 1     
+	               14 Bit    Registers := 1     
+	               11 Bit    Registers := 1     
+	               10 Bit    Registers := 4     
+	                8 Bit    Registers := 3     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 1     
+	                4 Bit    Registers := 11    
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 33    
++---Multipliers : 
+	               6x28  Multipliers := 6     
++---Muxes : 
+	   2 Input  512 Bit        Muxes := 1     
+	   4 Input   41 Bit        Muxes := 6     
+	   7 Input   41 Bit        Muxes := 6     
+	   4 Input   31 Bit        Muxes := 1     
+	   2 Input   31 Bit        Muxes := 1     
+	  15 Input   15 Bit        Muxes := 1     
+	   2 Input   15 Bit        Muxes := 17    
+	   2 Input   14 Bit        Muxes := 3     
+	  15 Input   14 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 3     
+	   2 Input   11 Bit        Muxes := 1     
+	   4 Input   10 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 4     
+	   7 Input    8 Bit        Muxes := 1     
+	  21 Input    7 Bit        Muxes := 1     
+	   3 Input    6 Bit        Muxes := 2     
+	   8 Input    6 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 2     
+	   2 Input    5 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 22    
+	   4 Input    4 Bit        Muxes := 1     
+	  11 Input    4 Bit        Muxes := 1     
+	   3 Input    4 Bit        Muxes := 6     
+	  25 Input    3 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 1     
+	   8 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   3 Input    3 Bit        Muxes := 1     
+	   5 Input    2 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 4     
+	   3 Input    2 Bit        Muxes := 1     
+	  33 Input    2 Bit        Muxes := 1     
+	  10 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 9     
+	   2 Input    1 Bit        Muxes := 53    
+	  15 Input    1 Bit        Muxes := 6     
+	   7 Input    1 Bit        Muxes := 7     
+	  11 Input    1 Bit        Muxes := 7     
+	   3 Input    1 Bit        Muxes := 10    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+DSP Report: Generating DSP pixel_addr_21, operation Mode is: A*(B:0x85).
+DSP Report: operator pixel_addr_21 is absorbed into DSP pixel_addr_21.
+DSP Report: Generating DSP pixel_addr_20, operation Mode is: PCIN+(A:0x0):B+(C:0xfffffffffe0c).
+DSP Report: operator pixel_addr_20 is absorbed into DSP pixel_addr_20.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1153.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping Report
++-------------+-----------------------------+---------------+----------------+
+|Module Name  | RTL Object                  | Depth x Width | Implemented As | 
++-------------+-----------------------------+---------------+----------------+
+|Ps2Interface | parity_table                | 256x1         | LUT            | 
+|Ps2Interface | parity_table                | 256x1         | LUT            | 
+|KeyboardCtrl | Ps2Interface_i/parity_table | 256x1         | LUT            | 
+|KeyboardCtrl | Ps2Interface_i/parity_table | 256x1         | LUT            | 
++-------------+-----------------------------+---------------+----------------+
+
+
+DSP: Preliminary Mapping Report (see note below)
++------------+-----------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name | DSP Mapping                       | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------+-----------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|main_screen | A*(B:0x85)                        | 10     | 8      | -      | -      | 18     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|main_screen | PCIN+(A:0x0):B+(C:0xfffffffffe0c) | 30     | 10     | 10     | -      | -1     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
++------------+-----------------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 1153.160 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:35 ; elapsed = 00:00:35 . Memory (MB): peak = 1209.965 ; gain = 56.805
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:36 ; elapsed = 00:00:36 . Memory (MB): peak = 1220.043 ; gain = 66.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:39 ; elapsed = 00:00:39 . Memory (MB): peak = 1220.043 ; gain = 66.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:39 ; elapsed = 00:00:39 . Memory (MB): peak = 1220.043 ; gain = 66.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:39 ; elapsed = 00:00:39 . Memory (MB): peak = 1220.043 ; gain = 66.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:39 ; elapsed = 00:00:39 . Memory (MB): peak = 1220.043 ; gain = 66.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1220.043 ; gain = 66.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1220.043 ; gain = 66.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |blk_mem_gen_0 |         1|
+|2     |blk_mem_gen_1 |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |blk_mem_gen |     2|
+|3     |BUFG        |     1|
+|4     |CARRY4      |   227|
+|5     |DSP48E1     |     2|
+|7     |LUT1        |   361|
+|8     |LUT2        |   230|
+|9     |LUT3        |   417|
+|10    |LUT4        |   371|
+|11    |LUT5        |   256|
+|12    |LUT6        |   359|
+|13    |FDCE        |   421|
+|14    |FDPE        |    11|
+|15    |FDRE        |    97|
+|16    |FDSE        |     6|
+|17    |IBUF        |     2|
+|18    |IOBUF       |     2|
+|19    |OBUF        |    49|
++------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1220.043 ; gain = 66.883
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 1220.043 ; gain = 66.883
+Synthesis Optimization Complete : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1220.043 ; gain = 66.883
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1220.043 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 231 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1226.555 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+
+Synth Design complete, checksum: a9c924c7
+INFO: [Common 17-83] Releasing license: Synthesis
+59 Infos, 36 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 1226.555 ; gain = 73.395
+INFO: [Common 17-1381] The checkpoint 'C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/drink_master.runs/synth_1/drinkinator.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file drinkinator_utilization_synth.rpt -pb drinkinator_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 18 20:31:08 2022...

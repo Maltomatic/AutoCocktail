@@ -1,0 +1,174 @@
+/*
+
+Xilinx Vivado v2021.1 (64-bit) [Major: 2021, Minor: 1]
+SW Build: 3247384 on Thu Jun 10 19:36:33 MDT 2021
+IP Build: 3246043 on Fri Jun 11 00:30:35 MDT 2021
+
+Process ID (PID): 15076
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Jan 18 07:36:44 CST 2022
+Time zone: 	Taipei Standard Time (Asia/Taipei)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 2256x1504
+Screen resolution (DPI): 150
+Available screens: 1
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=18
+Scale size: 27
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2
+Java executable: 	C:/Xilinx/Vivado/2021.1/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	256 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	justi
+User home directory: C:/Users/justi
+User working directory: C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2021.1
+RDI_DATADIR: C:/Xilinx/Vivado/2021.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2021.1/bin
+
+Vivado preferences file: C:/Users/justi/AppData/Roaming/Xilinx/Vivado/2021.1/vivado.xml
+Vivado preferences directory: C:/Users/justi/AppData/Roaming/Xilinx/Vivado/2021.1/
+Vivado layouts directory: C:/Users/justi/AppData/Roaming/Xilinx/Vivado/2021.1/data/layouts
+PlanAhead jar file: 	C:/Xilinx/Vivado/2021.1/lib/classes/planAhead.jar
+Vivado log file: 	C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/vivado.log
+Vivado journal file: 	C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/vivado.jou
+Engine tmp dir: 	C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/.Xil/Vivado-15076-iMalt-PC
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2021.1/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2021.1
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2021.1
+XILINX_VIVADO: C:/Xilinx/Vivado/2021.1
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2021.1
+
+
+GUI allocated memory:	256 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,225 MB
+
+Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\justi\Documents\verilog_lab\final_project\drinkinator\drink_master\drink_master.xpr. Version: Vivado v2021.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// Tcl Message: open_project C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/drink_master.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,225 MB. GUI used memory: 69 MB. Current time: 1/18/22, 7:36:45 AM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/drink_master.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 104 MB (+106106kb) [00:00:21]
+// [Engine Memory]: 1,225 MB (+1133545kb) [00:00:21]
+// [GUI Memory]: 110 MB (+1438kb) [00:00:24]
+// TclEventType: RUN_STEP_COMPLETED
+// [GUI Memory]: 120 MB (+4068kb) [00:00:25]
+// WARNING: HEventQueue.dispatchEvent() is taking  9644 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 4724 ms. Increasing delay to 3000 ms.
+// Project name: drink_master; location: C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:48 ; elapsed = 00:00:16 . Memory (MB): peak = 1467.902 ; gain = 0.000 
+dismissDialog("Open Project"); // bz
+// [GUI Memory]: 134 MB (+8585kb) [00:00:33]
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 150 MB (+9870kb) [00:00:38]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 11 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h
+// bz (cs):  Reset to Previous Step : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a
+// [GUI Memory]: 160 MB (+2749kb) [00:00:45]
+dismissDialog("Reset to Previous Step"); // bz
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // o
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bz (cs):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// cD (cs): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// TclEventType: RUN_LAUNCH
+dismissDialog("Launch Runs"); // cD
+// TclEventType: RUN_MODIFY
+// bz (cs):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Tue Jan 18 07:37:20 2022] Launched synth_1... Run output will be captured here: C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/drink_master.runs/synth_1/runme.log [Tue Jan 18 07:37:20 2022] Launched impl_1... Run output will be captured here: C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/drink_master/drink_master.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bz
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// Elapsed time: 76 seconds
+selectButton(PAResourceQtoS.RunGadget_SHOW_WARNING_AND_ERROR_MESSAGES_IN_MESSAGES, "38 warnings"); // h
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-327] inferring latch for variable 'flip_reg' [C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/main_screen.v:55]. ]", 4, false); // ah
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\justi\Documents\verilog_lab\final_project\drinkinator\main_screen.v;-;;-;16;-;line;-;55;-;;-;16;-;"); // ah
+// TclEventType: RUN_STEP_COMPLETED
+// PAPropertyPanels.initPanels (main_screen.v) elapsed time: 0.2s
+// Launch External Editor: 'C:/Users/justi/AppData/Local/Programs/Microsoft VS Code/Code.exe "C:/Users/justi/Documents/verilog_lab/final_project/drinkinator/main_screen.v" -l55'
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
